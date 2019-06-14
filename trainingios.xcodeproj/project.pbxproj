@@ -14,6 +14,7 @@
 		79B8AB5A22B3EB15007BEFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B8AB5822B3EB15007BEFF4 /* LaunchScreen.storyboard */; };
 		79B8AB6522B3EB16007BEFF4 /* trainingiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8AB6422B3EB16007BEFF4 /* trainingiosTests.swift */; };
 		79B8AB7022B3EB16007BEFF4 /* trainingiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8AB6F22B3EB16007BEFF4 /* trainingiosUITests.swift */; };
+		79B8AB7E22B3EE2B007BEFF4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 79B8AB7D22B3EE2B007BEFF4 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		79B8AB6B22B3EB16007BEFF4 /* trainingiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trainingiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B8AB6F22B3EB16007BEFF4 /* trainingiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trainingiosUITests.swift; sourceTree = "<group>"; };
 		79B8AB7122B3EB16007BEFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B8AB7D22B3EE2B007BEFF4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +79,15 @@
 		79B8AB4322B3EB13007BEFF4 = {
 			isa = PBXGroup;
 			children = (
+				79B8AB7D22B3EE2B007BEFF4 /* README.md */,
 				79B8AB4E22B3EB14007BEFF4 /* trainingios */,
 				79B8AB6322B3EB16007BEFF4 /* trainingiosTests */,
 				79B8AB6E22B3EB16007BEFF4 /* trainingiosUITests */,
 				79B8AB4D22B3EB14007BEFF4 /* Products */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		79B8AB4D22B3EB14007BEFF4 /* Products */ = {
 			isa = PBXGroup;
@@ -230,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79B8AB5A22B3EB15007BEFF4 /* LaunchScreen.storyboard in Resources */,
+				79B8AB7E22B3EE2B007BEFF4 /* README.md in Resources */,
 				79B8AB5722B3EB15007BEFF4 /* Assets.xcassets in Resources */,
 				79B8AB5522B3EB14007BEFF4 /* Main.storyboard in Resources */,
 			);
