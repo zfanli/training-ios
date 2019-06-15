@@ -7,9 +7,11 @@ Just for a training to know how to start build a iOS app.
 - [x] Create iOS app project
 - [ ] Understand what is a storyboard
     - [x] Draw UI components
+            - [x] Text, label, button, simple components
+            - [ ] Navigation
+            - [ ] Modals
     - [x] Add constraints for auto layout
     - [ ] How to make an app i18n
-        - [ ] can a third level checklist exists?
 - [ ] Connect UI components to controller
     - [ ] Add actions to UI components
 - [ ] Animation or transition?
