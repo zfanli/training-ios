@@ -36,6 +36,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uaq-Gx-q5I">
                                         <rect key="frame" x="0.0" y="66.5" width="121" height="30"/>
                                         <state key="normal" title="Change the Label"/>
+                                        <connections>
+                                            <action selector="changeLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZdQ-xC-fKy"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -51,6 +54,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="nameTextField" destination="vPX-8r-aum" id="Hv8-KL-5Pa"/>
+                        <outlet property="todoNameLabel" destination="9vQ-Tk-oDZ" id="6dM-vK-wNT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

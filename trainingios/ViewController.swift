@@ -9,12 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    //MARK: Properties
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var todoNameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    //MARK: Actions
+    @IBAction func changeLabelText(_ sender: UIButton) {
+        // set to default if text field does not have a value
+        if nameTextField.text == "" {
+            todoNameLabel.text = "TODOs"
+        } else {
+            todoNameLabel.text = nameTextField.text
+        }
+    }
+    
 
 }
 

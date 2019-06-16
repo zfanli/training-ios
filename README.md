@@ -13,8 +13,13 @@ Just for a training to know how to start build a iOS app.
     - [x] Add constraints for auto layout
     - [ ] How to make an app i18n
 - [ ] Connect UI components to controller
-    - [ ] Add actions to UI components
+    - [x] Add simple actions to UI components
+        - [x] Link label, text field objects to source
+        - [x] Link button to source and make a related action
+    - [ ] Connect to modals? Or other complex layout elements?
 - [ ] Animation or transition?
+- [ ] How to deal with complex UI layout? Multiple views
+    - [ ] Split to muitlple files? Or be modular?
 - [ ] How to management app's status
     - [ ] How to store status
     - [ ] How to fetch datas from a server
