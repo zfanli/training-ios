@@ -1,30 +1,33 @@
 # training-ios
 
-Just for a training to know how to start build a iOS app.
+Just a training for understand how to start to build an iOS app.
 
 ## TODOs
 
 - [x] Create iOS app project
-- [ ] Understand what is a storyboard
+- [ ] Storyboard
     - [x] Draw UI components
-        - [x] Text, label, button, simple components
-        - [ ] Navigation
-        - [ ] Modals
-    - [x] Add constraints for auto layout
-    - [ ] How to make an app i18n
-- [ ] Connect UI components to controller
-    - [x] Add simple actions to UI components
-        - [x] Link label, text field objects to source
-        - [x] Link button to source and make a related action
-    - [ ] Connect to modals? Or other complex layout elements?
-- [ ] Animation or transition?
-- [ ] How to deal with complex UI layout? Multiple views
-    - [ ] Split to muitlple files? Or be modular?
-- [ ] How to management app's status
-    - [ ] How to store status
-    - [ ] How to fetch datas from a server
-    - [ ] How to save data as a file
-    - [ ] How to retrieve data from a file
-- [ ] Make a data backup by iCloud or other ways
-    - [ ] Backup to iCloud?
-    - [ ] Backup data by send a email
+        - [x] text, label, button, simple components
+        - [ ] checkbox or radio button
+        - [ ] navigation or menu or settings
+        - [ ] modals or confirmation
+        - [ ] calendar
+    - [x] Constraints for auto layout
+    - [ ] i18n
+- [ ] View controller
+    - [x] Simple anctions
+        - [x] map label and text field to properties
+        - [x] simple button anction
+        - [ ] checkbox or radio button
+    - [ ] Modals or other complex components
+- [ ] Animation or transition
+- [ ] Complex layout
+    - [ ] split files or modular
+- [ ] App status
+    - [ ] store in memory
+    - [ ] fetch from a server
+    - [ ] save to files
+    - [ ] retrieve from files
+- [ ] Make backup
+    - [ ] by iCloud?
+    - [ ] by send a email
