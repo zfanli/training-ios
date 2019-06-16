@@ -9,17 +9,21 @@ Just a training for understand how to start to build an iOS app.
   - [x] Draw UI components
     - [x] text, label, button, simple components
     - [ ] checkbox or radio button
-    - [ ] image
+    - [ ] image and other assets
     - [ ] navigation or menu or settings
     - [ ] modals or confirmation
     - [ ] calendar
+  - [ ] gesture recognizers
   - [x] Constraints for auto layout
   - [ ] i18n
 - [ ] View controller
   - [x] Simple actions
     - [x] map label and text field to properties
     - [x] simple button actions
+    - [x] text field actions by adopt delegate protocol
     - [ ] checkbox or radio button
+  - [ ] life cycle
+  - [ ] pass data between controllers
   - [ ] Modals or other complex components
 - [ ] Animation or transition
 - [ ] Complex layout
