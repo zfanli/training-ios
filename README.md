@@ -9,6 +9,7 @@ Just a training for understand how to start to build an iOS app.
   - [x] Draw UI components
     - [x] text, label, button, simple components
     - [ ] checkbox or radio button
+    - [ ] image
     - [ ] navigation or menu or settings
     - [ ] modals or confirmation
     - [ ] calendar
@@ -199,3 +200,5 @@ class ViewController: UIViewController, UITextFieldDelegate {
 ```
 
 现在这个简陋的 App 可以将用户输入的内容设置为 Label 名称，并且用户可以点击按钮恢复 Label 名称的默认值了。
+
+> R：到此为止记录在 [1.iOS UI Basics](https://github.com/zfanli/notes/tree/master/ios/started/1.UIBasics.md)，以方便查阅。
