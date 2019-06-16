@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GQy-Nx-myZ">
-                                <rect key="frame" x="20" y="64" width="374" height="96.5"/>
+                                <rect key="frame" x="20" y="64" width="374" height="478.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TODOs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vQ-Tk-oDZ">
                                         <rect key="frame" x="0.0" y="0.0" width="56" height="20.5"/>
@@ -40,6 +40,12 @@
                                             <action selector="resetLabelName:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZdQ-xC-fKy"/>
                                         </connections>
                                     </button>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultImage" translatesAutoresizingMaskIntoConstraints="NO" id="hgf-I3-ajq">
+                                        <rect key="frame" x="0.0" y="104.5" width="374" height="374"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="hgf-I3-ajq" secondAttribute="height" multiplier="1:1" id="PhB-q5-p17"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="vPX-8r-aum" secondAttribute="trailing" id="fxb-LT-rHD"/>
@@ -64,4 +70,7 @@
             <point key="canvasLocation" x="34.782608695652179" y="18.75"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="defaultImage" width="540" height="538.5"/>
+    </resources>
 </document>
