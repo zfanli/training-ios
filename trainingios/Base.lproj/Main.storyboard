@@ -37,7 +37,7 @@
                                         <rect key="frame" x="0.0" y="66.5" width="121" height="30"/>
                                         <state key="normal" title="Change the Label"/>
                                         <connections>
-                                            <action selector="changeLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZdQ-xC-fKy"/>
+                                            <action selector="resetLabelName:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZdQ-xC-fKy"/>
                                         </connections>
                                     </button>
                                 </subviews>
