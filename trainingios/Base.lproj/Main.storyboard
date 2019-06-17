@@ -34,17 +34,21 @@
                                         <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uaq-Gx-q5I">
-                                        <rect key="frame" x="0.0" y="66.5" width="121" height="30"/>
-                                        <state key="normal" title="Change the Label"/>
+                                        <rect key="frame" x="0.0" y="66.5" width="136" height="30"/>
+                                        <state key="normal" title="Set to Default Label"/>
                                         <connections>
                                             <action selector="resetLabelName:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZdQ-xC-fKy"/>
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultImage" translatesAutoresizingMaskIntoConstraints="NO" id="hgf-I3-ajq">
                                         <rect key="frame" x="0.0" y="104.5" width="374" height="374"/>
+                                        <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="hgf-I3-ajq" secondAttribute="height" multiplier="1:1" id="PhB-q5-p17"/>
                                         </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="UXe-Jc-yN4" appends="YES" id="N9h-cg-9s4"/>
+                                        </connections>
                                     </imageView>
                                 </subviews>
                                 <constraints>
@@ -62,10 +66,16 @@
                     </view>
                     <connections>
                         <outlet property="nameTextField" destination="vPX-8r-aum" id="Hv8-KL-5Pa"/>
+                        <outlet property="photoImageView" destination="hgf-I3-ajq" id="MXO-Zp-rT6"/>
                         <outlet property="todoNameLabel" destination="9vQ-Tk-oDZ" id="6dM-vK-wNT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="UXe-Jc-yN4">
+                    <connections>
+                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="afc-4E-Uhk"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="34.782608695652179" y="18.75"/>
         </scene>
