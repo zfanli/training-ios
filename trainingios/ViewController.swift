@@ -29,7 +29,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
-        // should not replace label name when nothing is inputted
+        // should not replace label name when nothing is inputted.
         if textField.text != "" {
             todoNameLabel.text = textField.text
         }
@@ -57,7 +57,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     //MARK: Actions
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
         
-        // hide keyboard first
+        // hide keyboard first.
         nameTextField.resignFirstResponder()
         
         // UIImagePickerController is a view controller that lets a user pick media from their photo library.

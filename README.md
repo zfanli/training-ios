@@ -206,3 +206,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
 现在这个简陋的 App 可以将用户输入的内容设置为 Label 名称，并且用户可以点击按钮恢复 Label 名称的默认值了。
 
 > R：到此为止记录在 [1.iOS UI Basics](https://github.com/zfanli/notes/tree/master/ios/started/1.UIBasics.md)，以方便查阅。
+
+### View Controller 生命周期
+
+先来看点综述。我们正在做的例子只是一个 sample，它只有一个场景，所以我们仅使用一个 View Controller 就可以完成。但是现实开发中我们往往都要面对更复杂的场景，自然也需要管理每个 View Controller 之间的管理，如何去装载和移除视图。
+
+`UIViewController` 以及它的子类有一系列方法用来管理视图层级。iOS 系统会在各个视图切换状态时自动调用这些方法。你可以使用这些生命周期方法在 View Controller 切换各种状态时进行定制化处理。这个例子中应该不会用到这些，但是之后你总会用的。
+
+iOS 会在下面的时间调用 `UIViewController` 中的方法：
+
+- `viewDidLoad()` View Controller 的视图层在故事版中创建和加载时执行。
+
+### 处理图片选择框
+
+现在我们添加一个 Image View，让其显示一张默认图片，并且允许用户点击修改成任意图片。
